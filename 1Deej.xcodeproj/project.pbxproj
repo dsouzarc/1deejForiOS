@@ -15,6 +15,8 @@
 		9438FCD81BD9ACC900B239BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9438FCD61BD9ACC900B239BE /* LaunchScreen.storyboard */; };
 		9438FCE31BD9ACC900B239BE /* _DeejTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9438FCE21BD9ACC900B239BE /* _DeejTests.m */; };
 		9438FCEE1BD9ACC900B239BE /* _DeejUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9438FCED1BD9ACC900B239BE /* _DeejUITests.m */; };
+		9438FCFE1BDAFEA900B239BE /* DJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9438FCFC1BDAFEA900B239BE /* DJViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9438FCFF1BDAFEA900B239BE /* DJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9438FCFD1BDAFEA900B239BE /* DJViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9438FCE91BD9ACC900B239BE /* 1DeejUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1DeejUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9438FCED1BD9ACC900B239BE /* _DeejUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DeejUITests.m; sourceTree = "<group>"; };
 		9438FCEF1BD9ACC900B239BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9438FCFB1BDAFEA900B239BE /* DJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
+		9438FCFC1BDAFEA900B239BE /* DJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJViewController.m; sourceTree = "<group>"; };
+		9438FCFD1BDAFEA900B239BE /* DJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				9438FCD61BD9ACC900B239BE /* LaunchScreen.storyboard */,
 				9438FCD91BD9ACC900B239BE /* Info.plist */,
 				9438FCC81BD9ACC900B239BE /* Supporting Files */,
+				9438FCFB1BDAFEA900B239BE /* DJViewController.h */,
+				9438FCFC1BDAFEA900B239BE /* DJViewController.m */,
+				9438FCFD1BDAFEA900B239BE /* DJViewController.xib */,
 			);
 			path = 1Deej;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			files = (
 				9438FCD81BD9ACC900B239BE /* LaunchScreen.storyboard in Resources */,
 				9438FCD51BD9ACC900B239BE /* Assets.xcassets in Resources */,
+				9438FCFF1BDAFEA900B239BE /* DJViewController.xib in Resources */,
 				9438FCD31BD9ACC900B239BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				9438FCD01BD9ACC900B239BE /* ViewController.m in Sources */,
 				9438FCCD1BD9ACC900B239BE /* AppDelegate.m in Sources */,
+				9438FCFE1BDAFEA900B239BE /* DJViewController.m in Sources */,
 				9438FCCA1BD9ACC900B239BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
