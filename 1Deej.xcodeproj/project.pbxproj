@@ -17,6 +17,7 @@
 		9438FCEE1BD9ACC900B239BE /* _DeejUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9438FCED1BD9ACC900B239BE /* _DeejUITests.m */; };
 		9438FCFE1BDAFEA900B239BE /* DJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9438FCFC1BDAFEA900B239BE /* DJViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9438FCFF1BDAFEA900B239BE /* DJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9438FCFD1BDAFEA900B239BE /* DJViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		9438FD011BDC515100B239BE /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9438FD001BDC515100B239BE /* Spotify.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		9438FCFB1BDAFEA900B239BE /* DJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
 		9438FCFC1BDAFEA900B239BE /* DJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJViewController.m; sourceTree = "<group>"; };
 		9438FCFD1BDAFEA900B239BE /* DJViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJViewController.xib; sourceTree = "<group>"; };
+		9438FD001BDC515100B239BE /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9438FD011BDC515100B239BE /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 		9438FCBC1BD9ACC900B239BE = {
 			isa = PBXGroup;
 			children = (
+				9438FD001BDC515100B239BE /* Spotify.framework */,
 				9438FCC71BD9ACC900B239BE /* 1Deej */,
 				9438FCE11BD9ACC900B239BE /* 1DeejTests */,
 				9438FCEC1BD9ACC900B239BE /* 1DeejUITests */,
@@ -423,6 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = 1Deej/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryan.-Deej";
@@ -434,6 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = 1Deej/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryan.-Deej";
